@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Personal Website</title>
+		<link rel="stylesheet" href="./styles.css" /> <!-- finds styles css file. if diff folder do ./_____/styles.css -->
+	</head>	
+
+	<body>
+		<div class="sections"> <!-- where diff sections will be    -->
+			<a href="#about">About</a> <!-- href creates a hyperlinl -->
+			<a href="#me">Me</a> <!-- # creates an ID. ID is diff than class because only used one -->
+			<a href="#activites">Activites</a>
+		</div>	
+
+		<div id="me"/>
+			<div>
+				<h1 style="margin-bottom: 0">I am Lorenzo Martinelli</h1>
+				<i>I am learning to code</i>
+				<img class="profileImg" src="./profile.jpg" alt="" />
+			</div>
+		</div>	
+		
+		<div id="about">
+			<h1>About Me</h1>
+			<p>Here is a paragraph about me</p>
+			<p>Here is another paragraph about me</p>
+		</div>	
+
+		<div id="activites">
+			<h1>Activities</h1>
+			<img src="https://source.unsplash.com/random/400x200" alt="" />
+		</div>	
+
+
+	</body>
+
+	<script src="https:/ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- uses jquery api -->
+	<script async src="./index.js"></script> <!-- finds java script file -->
+</html>	
